@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+
+  "name": "Twitch Chat Filter",
+  "description": "This extension is for TwitchPlaysPokemon. It will filter all the game command so the chat can be readable",
+  "version": "0.1",
+
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  },
+  "content_security_policy": "script-src https://twitch.tv/ 'self' ; object-src 'self'",
+  "permissions": [
+    "https://www.twitch.tv/twitchplayspokemon"
+  ]
+}
